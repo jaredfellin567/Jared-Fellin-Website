@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jared Fellin</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel = "icon" type = "image/x-icon" href = "images/blueIconSymbol.png">
+</head>
+<body>
+
+<div class="header">
+    <span id = 'webName' style = 'float:left'>JAREDFELLIN.COM</span>
+
+    <div class="dropdown">
+        <button class="dropbtn">
+            <ion-icon id = 'threeLines' name="reorder-three-outline"></ion-icon>
+        </button>
+
+        <div class="dropdown-content">
+          <a id = 'drophome' href="#">HOME</a>
+          <a id = 'dropabout' href="#">ABOUT ME</a>
+          <a id = 'dropprojects' href="#">PROJECTS</a>
+          <a id = 'dropresume' href="resume.pdf" target = "_blank" download="JARED_FELLIN_RESUME">RESUME</a>
+        </div>
+    </div>
+
+<div class = 'horizontalMenu'>
+    <span id = 'home'>HOME</span>
+    <span id = 'aboutMe'>ABOUT ME</span>
+    <span id = 'projects'>PROJECTS</span>
+    <a href="resume.pdf" target = "_blank" download="JARED_FELLIN_RESUME">
+    <span id = 'resume'>RESUME</span>
+    </a>
+</div>
+</div>
+
+<div class = 'intro'>
+    <div class = 'homepagePic'>
+        <img id = 'ME' style = "float:left" src = "images/mainPic.jpeg" alt = "Awesome Picture of Jared">
+    </div>
+
+    <div class = 'greetings'>
+        <p id = "welcome" >Hi, I'm Jared Fellin!</p>
+        <p id = "description"> UCLA Student | Computer Science</p>
+    </div>
+
+    <div class = "social-icons">
+        <a id = 'LinkedIn' href = "https://www.linkedin.com/in/jared-fellin-18b66a336/" target = "_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a id = 'GitHub' href = "https://github.com/jaredfellin567" target = "_blank">
+            <ion-icon name="logo-github"></ion-icon>
+        </a>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class = "timeline">
+    <h1 id = 'timelineHeader'>Education</h1>
+    <div class = "timelineContainer">
+        <img id = "ucla" src = "images/uclaLogo.png">
+        <div class = "educationTextBox">
+            <h2>University of California, Los Angeles</h2>
+            <large>2024 - Present</large>
+            <p>Major: Computer Science</p>
+            <span class = "arrow"></span>
+        </div>
+    </div>
+    <div class = "timelineContainer">
+        <img id = "cathedral" src = "images/cathedralLogo.png">
+        <div class = "educationTextBox">
+            <h2>Cathedral High School</h2>
+            <large>2020 - 2024</large>
+            <p></p>
+            <span class = "arrow"></span>
+        </div>
+    </div>
+</div>
+
+<div class = "timeline">
+
+    <h1 id = 'timelineHeader'>Experience</h1>
+    <div class = "timelineContainer">
+        <img id = "cathedral" src = "images/cathedralLogo.png">
+
+       <div class = "educationTextBox">
+        <h2>Cathedral High School</h2>
+        <large>2022</large>
+        <p>Robotics Instructor</p>
+        <span class = "arrow"></span>
+    </div>
+
+    </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" method="POST" class = "contact-left">
+        <div class = "contact-left-title">
+            <h2 id = "contact-left-titleh2">GET IN TOUCH</h3>
+            <hr id = "contact-left-titlehr">
+        </div>
+        <input type="hidden" name="access_key" value="4e745475-02d9-4d67-b475-41f05ef2386a">
+        <input type = "text" name = "name" placeholder = "Your Name" class = "contact-inputs" required>
+        <input type = "email" name = "email" placeholder = "Your Email" class = "contact-inputs" required>
+        <input type = "text" name = "subject" placeholder = "Subject" class = "contact-inputs" required>
+        <input name = "message" placeholder = "Message" class = "contact-inputs" required>
+        <button type = "submit" id = "submitButton">Submit</button>
+    </form>
+
+</div>
+
+<div class = "footer">
+<footer id = "copyright"><small>&copy; 2025 Jared Fellin</small></footer>
+<a id = 'bottomLinkedIn' href = "https://www.linkedin.com/in/jared-fellin-18b66a336/" target = "_blank">
+    <ion-icon name="logo-linkedin"></ion-icon>
+</a>
+<a id = 'bottomGitHub' href = "https://github.com/jaredfellin567" target = "_blank">
+    <ion-icon name="logo-github"></ion-icon>
+</a>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+<script src="./main.js"></script>
+</html>
